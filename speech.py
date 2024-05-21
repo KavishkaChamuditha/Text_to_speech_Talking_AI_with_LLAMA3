@@ -1,3 +1,10 @@
+# commands to run before starting this
+# pip install ollama
+# python -m pip install pyaudio
+# pip install "assemblyai[extras]"
+# pip install elevenlabs
+
+
 import assemblyai as aai
 from elevenlabs.client import ElevenLabs
 from elevenlabs import stream
